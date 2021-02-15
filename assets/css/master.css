@@ -4,44 +4,202 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* header */
 a.navbar-brand {
   padding-top: 8px;
 }
+
 a.navbar-brand img {
   width: 200px;
 }
 
-@media all and (min-width: 768px) {
-
+/* header-jumbo */
+.jumbo form div.black h2 {
+  font-weight: 600;
 }
 
-@media all and (min-width: 1170px) {
+.jumbo form div.purple h2 {
+  font-weight: 600;
+}
+.jumbo h1 {
+  font-weight: 600;
+}
+
+.jumbo p {
+  padding: 15px 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #98b2fc;
+}
+
+.jumbo {
+  color: #FFF;
+  background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
+}
+.jumbo form {
+  border-radius: 5px;
+  padding: 20px;
+}
+.jumbo form ::placeholder {
+  font-weight: 600;
+}
+.jumbo .my-input {
+  padding: 7px 3px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.jumbo form button {
+  width: 100%;
+  font-weight: 600;
+  background-color: #579aff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.jumbo form button img {
+  padding-bottom: 3px;
+    width: 15px;
+    margin-right: 5px;
+    float: left;
+}
+
+.jumbo form p {
+  font-size: 14px;
+  color: #253963;
+}
+
+.jumbo form p a {
+  text-decoration: underline;
+}
+/* header-jumbo */
+/* header */
+
+/* main */
+/* main section  logo-grid */
+ main section.logos-grid {
+   text-align: center;
+  background-color: #F3F5F9;
+}
+
+main section.logos-grid h4 {
+  font-weight: 600;
+  color: #717C98;
+  margin: 60px 0;
+}
+
+main section.logos-grid img {
+  height: 125px;
+}
+
+main section.logos-grid p {
+  font-size: 18px;
+  margin: 50px 0;
+  color: #046DFE;
+  font-weight: 600;
+}
+/* main section  logo-grid */
+
+/* main */
+
+/* utility */
+.purple {
+   color: #036bff;
+}
+
+.black {
+  color: black;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+m
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* utility */
+
+
+@media all and (min-width: 768px) {
+  .navbar-header {
+    width: 100%;
+  }
+
+  .navbar-collapse ul {
+    display: none;
+  }
+
+  .navbar-toggle {
+    margin-right: 0;
+    display: block;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar-header {
+    width: auto;
+  }
+
+  ul.navbar-nav {
+    margin-left: 0;
+  }
+
+  .navbar-collapse ul {
+    display: block;
+  }
+
+  .navbar-toggle {
+    margin-right: 0;
+    display: none;
+  }
+
   nav.navbar {
     min-height: 70px;
     font-size: 15px;
   }
+
   div.collapse.navbar-collapse {
     margin-top: 10px;
   }
+
   .navbar-brand img {
     width: 150px;
   }
-
-
 
   .navbar-brand {
     margin-top: 10px;
     padding: 11px 15px;
   }
 
-  ul.navbar-nav {
+  /* ul.navbar-nav {
     margin-left: 15px;
-  }
-
-  .nav>li>a  {
+  } */
+  .nav>li>a {
     padding: 15px 0px;
     padding-left: 20px;
   }
+
   .navbar-default .navbar-nav>li>a {
     color: #031c4e;
     font-weight: 600;
@@ -58,10 +216,10 @@ a.navbar-brand img {
     outline: none;
   }
 
-
   .navbar-nav>li>button:hover {
     color: #333;
   }
+
   .fas.fa-chevron-down {
     padding-left: 2px;
     color: #031c4e;
@@ -75,9 +233,15 @@ a.navbar-brand img {
 
   ul.navbar-right button.sign-up {
     border-radius: 5px;
-      margin-top: 8px;
+    margin-top: 8px;
     padding: 5px 8px;
-    color:#0a6fff;
+    color: #0a6fff;
     border: 1px solid black;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
   }
 }
