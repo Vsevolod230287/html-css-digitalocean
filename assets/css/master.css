@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
-
 .navbar-brand img {
   width: 150px;
 }
 
 .navbar-brand {
-    padding: 11px 15px;
+  padding: 11px 15px;
+}
+
+.navbar-nav>li>button {
+  color: #777;
+  padding-top: 15px;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.navbar-nav>li>button:hover {
+  color: #333;
+}
+
+.fa-chevron-down {
+  padding-left: 2px;
 }
