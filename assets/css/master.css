@@ -4,27 +4,80 @@
   box-sizing: border-box;
 }
 
-.navbar-brand img {
-  width: 150px;
+a.navbar-brand {
+  padding-top: 8px;
+}
+a.navbar-brand img {
+  width: 200px;
 }
 
-.navbar-brand {
-  padding: 11px 15px;
+@media all and (min-width: 768px) {
+
 }
 
-.navbar-nav>li>button {
-  color: #777;
-  padding-top: 15px;
-  font-size: 14px;
-  border: none;
-  background-color: transparent;
-  outline: none;
-}
+@media all and (min-width: 1170px) {
+  nav.navbar {
+    min-height: 70px;
+    font-size: 15px;
+  }
+  div.collapse.navbar-collapse {
+    margin-top: 10px;
+  }
+  .navbar-brand img {
+    width: 150px;
+  }
 
-.navbar-nav>li>button:hover {
-  color: #333;
-}
 
-.fa-chevron-down {
-  padding-left: 2px;
+
+  .navbar-brand {
+    margin-top: 10px;
+    padding: 11px 15px;
+  }
+
+  ul.navbar-nav {
+    margin-left: 15px;
+  }
+
+  .nav>li>a  {
+    padding: 15px 0px;
+    padding-left: 20px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #031c4e;
+    font-weight: 600;
+  }
+
+  .navbar-nav>li>button {
+    font-weight: 600;
+    margin-left: 20px;
+    color: #031c4e;
+    padding-top: 14px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+
+  .navbar-nav>li>button:hover {
+    color: #333;
+  }
+  .fas.fa-chevron-down {
+    padding-left: 2px;
+    color: #031c4e;
+    font-weight: 900;
+  }
+
+  .fas.fa-chevron-down:hover,
+  .navbar-nav>li>button:hover .fas.fa-chevron-down {
+    color: #333;
+  }
+
+  ul.navbar-right button.sign-up {
+    border-radius: 5px;
+      margin-top: 8px;
+    padding: 5px 8px;
+    color:#0a6fff;
+    border: 1px solid black;
+  }
 }
