@@ -117,6 +117,11 @@ main section.logos-grid p {
 }
 
 /* main section deploy */
+.deploy {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .deploy-heading {
   text-align: center;
 }
@@ -161,20 +166,16 @@ main section.logos-grid p {
   font-size: 18px;
 }
 
-.deploy .row {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* main section carousel */
 main section.carousel {
   padding: 100px 0;
   background-color: #F3F5F9;
 }
-.carousel img{
-  width: 100%;
 
+.carousel img {
+  width: 100%;
 }
+
 .carousel .img-carousel {
   width: 80%;
   margin: 0 auto;
@@ -186,13 +187,16 @@ main section.carousel {
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
+  display: none;
 }
+
 .carousel .arrow-right .fa-arrow-circle-right {
   font-size: 30px;
   position: absolute;
   top: 50%;
   right: 0%;
   transform: translate(0, -50%);
+  display: none;
 }
 
 .div-carousel {
@@ -226,12 +230,13 @@ main section.carousel {
   background-color: #006AFF;
 }
 
-.carousel .create-compute p{
-margin-top: 20px;
-margin-bottom: 50px;
-color: #0A2353;
+.carousel .create-compute p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: #0A2353;
 }
 /* main section carousel */
+
 
 
 /* main section features */
@@ -244,7 +249,6 @@ main section.features .row {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 
 main section.features p {
   font-weight: 600;
@@ -264,6 +268,52 @@ main section.features img {
 }
 /* main section features */
 
+
+/* main section around-the-world */
+.around-the-world {
+  font-weight: 600;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #FFF;
+  background-color: #003EBB;
+}
+
+.around-the-world h1 {
+  font-weight: 900;
+}
+
+.around-the-world p {
+  margin: 0;
+  color: #9DAEDD;
+  display: inline-block;
+}
+
+.around-the-world a {
+  padding-right: 15px;
+  float: right;
+  color: #9DAEDD;
+}
+
+.around-the-world ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.around-the-world ul li {
+  line-height: 40px;
+  border-bottom: 1px solid #FFF;
+}
+
+.around-the-world ul li span {
+  display: inline-block;
+  margin-left: 15px;
+  width: 15%;
+}
+/* main section around-the-world */
+
+/* section */
+background-color: #F3F5F9;
 /* main */
 /* utility */
 .purple {
@@ -289,6 +339,7 @@ main section.features img {
 .mb-10 {
   margin-bottom: 10px;
 }
+
 .mt-50 {
   margin-top: 50px;
 }
@@ -323,114 +374,132 @@ main section.features img {
     width: 100%;
     height: 80px;
   }
-
   /* main logos grid section*/
-  @media all and (min-width: 992px) {
 
-    /* header navbar */
-    .container {
-      width: 100%;
-    }
+/* main carousel */
+.carousel .arrow-left .fa-arrow-circle-left {
+  display: block;
+}
 
-    .navbar-header {
-      width: auto;
-    }
+.carousel .arrow-right .fa-arrow-circle-right {
+  display: block;
+}
+/* main carousel */
 
-    ul.navbar-nav {
-      margin-left: 0;
-    }
 
-    .navbar-collapse ul {
-      display: block;
-    }
 
-    .navbar-toggle {
-      margin-right: 0;
-      display: none;
-    }
+}
 
-    nav.navbar {
-      min-height: 70px;
-      font-size: 15px;
-    }
 
-    div.collapse.navbar-collapse {
-      margin-top: 10px;
-    }
 
-    .navbar-brand img {
-      width: 150px;
-    }
 
-    .navbar-brand {
-      margin-top: 10px;
-      padding: 11px 15px;
-    }
 
-    .nav>li>a {
-      padding: 15px 0px;
-      padding-left: 20px;
-    }
+@media all and (min-width: 992px) {
 
-    .navbar-default .navbar-nav>li>a {
-      color: #031c4e;
-      font-weight: 600;
-    }
-
-    .navbar-nav>li>button {
-      font-weight: 600;
-      margin-left: 20px;
-      color: #031c4e;
-      padding-top: 14px;
-      font-size: 15px;
-      border: none;
-      background-color: transparent;
-      outline: none;
-    }
-
-    .navbar-nav>li>button:hover {
-      color: #333;
-    }
-
-    .fas.fa-chevron-down {
-      padding-left: 2px;
-      color: #031c4e;
-      font-weight: 900;
-    }
-
-    .fas.fa-chevron-down:hover,
-    .navbar-nav>li>button:hover .fas.fa-chevron-down {
-      color: #333;
-    }
-
-    ul.navbar-right button.sign-up {
-      border-radius: 5px;
-      margin-top: 8px;
-      padding: 5px 8px;
-      color: #0a6fff;
-      border: 1px solid black;
-    }
-
-    /* header navbar */
-    header .jumbo {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  /* header navbar */
+  .container {
+    width: 100%;
   }
 
-  @media all and (min-width: 1200px) {
-    .container {
-      max-width: 1170px;
-    }
-
-    /* header jumbo */
-    /* header jumbo */
-    /* main section logos-grid */
-    main section.logos-grid h4 {
-      font-size: 30px;
-    }
-
-    main section.logos-grid p {
-      font-size: 25px;
-    }
+  .navbar-header {
+    width: auto;
   }
+
+  ul.navbar-nav {
+    margin-left: 0;
+  }
+
+  .navbar-collapse ul {
+    display: block;
+  }
+
+  .navbar-toggle {
+    margin-right: 0;
+    display: none;
+  }
+
+  nav.navbar {
+    min-height: 70px;
+    font-size: 15px;
+  }
+
+  div.collapse.navbar-collapse {
+    margin-top: 10px;
+  }
+
+  .navbar-brand img {
+    width: 150px;
+  }
+
+  .navbar-brand {
+    margin-top: 10px;
+    padding: 11px 15px;
+  }
+
+  .nav>li>a {
+    padding: 15px 0px;
+    padding-left: 20px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: #031c4e;
+    font-weight: 600;
+  }
+
+  .navbar-nav>li>button {
+    font-weight: 600;
+    margin-left: 20px;
+    color: #031c4e;
+    padding-top: 14px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .navbar-nav>li>button:hover {
+    color: #333;
+  }
+
+  .fas.fa-chevron-down {
+    padding-left: 2px;
+    color: #031c4e;
+    font-weight: 900;
+  }
+
+  .fas.fa-chevron-down:hover,
+  .navbar-nav>li>button:hover .fas.fa-chevron-down {
+    color: #333;
+  }
+
+  ul.navbar-right button.sign-up {
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 5px 8px;
+    color: #0a6fff;
+    border: 1px solid black;
+  }
+
+  /* header navbar */
+  header .jumbo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  /* header jumbo */
+  /* header jumbo */
+  /* main section logos-grid */
+  main section.logos-grid h4 {
+    font-size: 30px;
+  }
+
+  main section.logos-grid p {
+    font-size: 25px;
+  }
+}
