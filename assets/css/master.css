@@ -12,6 +12,7 @@ body {
 .navbar {
   margin-bottom: 0;
 }
+
 a.navbar-brand {
   padding-top: 8px;
 }
@@ -28,6 +29,7 @@ a.navbar-brand img {
 .jumbo form div.purple h2 {
   font-weight: 600;
 }
+
 .jumbo h1 {
   margin-top: 70px;
   font-weight: 600;
@@ -41,18 +43,20 @@ a.navbar-brand img {
 }
 
 .jumbo {
-
   color: #FFF;
   background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
 }
+
 .jumbo form {
   margin-bottom: 70px;
   border-radius: 5px;
   padding: 20px;
 }
+
 .jumbo form ::placeholder {
   font-weight: 600;
 }
+
 .jumbo .my-input {
   padding: 7px 3px;
   border: 1px solid lightgrey;
@@ -72,9 +76,9 @@ a.navbar-brand img {
 
 .jumbo form button img {
   padding-bottom: 3px;
-    width: 15px;
-    margin-right: 5px;
-    float: left;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
 }
 
 .jumbo form p {
@@ -85,13 +89,13 @@ a.navbar-brand img {
 .jumbo form p a {
   text-decoration: underline;
 }
+
 /* header-jumbo */
 /* header */
-
 /* main */
 /* main section  logo-grid */
- main section.logos-grid {
-   text-align: center;
+main section.logos-grid {
+  text-align: center;
   background-color: #F3F5F9;
 }
 
@@ -111,9 +115,10 @@ main section.logos-grid p {
   color: #046DFE;
   font-weight: 600;
 }
+
 /* main section deploy */
 .deploy-heading {
-text-align: center;
+  text-align: center;
 }
 
 .deploy-heading h1 {
@@ -122,9 +127,9 @@ text-align: center;
 
 .deploy-heading p {
   margin-bottom: 50px;
-font-size: 18px;
-font-weight: 600;
-color: #65728E;
+  font-size: 18px;
+  font-weight: 600;
+  color: #65728E;
 }
 
 .deploy ul {
@@ -140,8 +145,7 @@ color: #65728E;
   border-left: 2px solid #CCCCCC;
 }
 
-.deploy ul li:hover
-{
+.deploy ul li:hover {
   border-left: 2px solid blue;
 }
 
@@ -152,7 +156,7 @@ color: #65728E;
 
 .deploy-card p {
   padding-bottom: 20px;
-  color:#7A859D;
+  color: #7A859D;
   font-weight: 600;
   font-size: 18px;
 }
@@ -162,14 +166,64 @@ color: #65728E;
   padding-bottom: 50px;
 }
 
-/* main section deploy */
+/* main section carousel */
+main section.carousel {
+  padding: 100px 0;
+  background-color: #F3F5F9;
+}
+.carousel img {
+  width: 100%;
+}
 
+.carousel .arrow-left,
+.carousel .arrow-right {
+  height: 100%;
+  position: relative;
+}
 
+.carousel .fa-arrow-circle-left {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(0, -50%);
+}
+
+.carousel .fa-arrow-circle-right {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  right: 70%;
+  transform: translate(0, -50%);
+
+}
+
+.menu-carousel {
+  padding-top: 20px;
+}
+
+.menu-carousel span {
+  margin: 5px;
+  padding: 0px 9px;
+  border-radius: 50%;
+  border: 2px solid #3D8DFD;
+  background-color: #FFF;
+}
+
+.menu-carousel span.full {
+  background-color: #006AFF;
+}
+
+.carousel .create-compute {
+margin-top: 20px;
+margin-bottom: 50px;
+}
+
+/* main section carousel */
 /* main */
-
 /* utility */
 .purple {
-   color: #036bff;
+  color: #036bff;
 }
 
 .black {
@@ -179,6 +233,7 @@ color: #65728E;
 .bg-white {
   background-color: #FFF;
 }
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -187,17 +242,14 @@ color: #65728E;
   margin-bottom: 50px;
 }
 
-
 .mb-10 {
   margin-bottom: 10px;
 }
 
 /* utility */
-
-
 @media all and (min-width: 768px) {
 
-/* header navbar */
+  /* header navbar */
   .navbar-header {
     width: 100%;
   }
@@ -210,137 +262,128 @@ color: #65728E;
     margin-right: 0;
     display: block;
   }
+
   /* header navbar */
-
-
   /* header jumbo */
   section.jumbo {
     padding: 100px 0;
     padding-right: 20px;
   }
+
   /* header jumbo */
-
-
-/* main logos grid section*/
-main section.logos-grid img {
-  width: 100%;
-  height: 80px;
-}
-/* main logos grid section*/
-
-/* deploy section */
-
-/* deploy section */
-
-}
-
-@media all and (min-width: 992px) {
- /* header navbar */
-  .container {
+  /* main logos grid section*/
+  main section.logos-grid img {
     width: 100%;
+    height: 80px;
   }
 
-  .navbar-header {
-    width: auto;
+  /* main logos grid section*/
+  @media all and (min-width: 992px) {
+
+    /* header navbar */
+    .container {
+      width: 100%;
+    }
+
+    .navbar-header {
+      width: auto;
+    }
+
+    ul.navbar-nav {
+      margin-left: 0;
+    }
+
+    .navbar-collapse ul {
+      display: block;
+    }
+
+    .navbar-toggle {
+      margin-right: 0;
+      display: none;
+    }
+
+    nav.navbar {
+      min-height: 70px;
+      font-size: 15px;
+    }
+
+    div.collapse.navbar-collapse {
+      margin-top: 10px;
+    }
+
+    .navbar-brand img {
+      width: 150px;
+    }
+
+    .navbar-brand {
+      margin-top: 10px;
+      padding: 11px 15px;
+    }
+
+    .nav>li>a {
+      padding: 15px 0px;
+      padding-left: 20px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+      color: #031c4e;
+      font-weight: 600;
+    }
+
+    .navbar-nav>li>button {
+      font-weight: 600;
+      margin-left: 20px;
+      color: #031c4e;
+      padding-top: 14px;
+      font-size: 15px;
+      border: none;
+      background-color: transparent;
+      outline: none;
+    }
+
+    .navbar-nav>li>button:hover {
+      color: #333;
+    }
+
+    .fas.fa-chevron-down {
+      padding-left: 2px;
+      color: #031c4e;
+      font-weight: 900;
+    }
+
+    .fas.fa-chevron-down:hover,
+    .navbar-nav>li>button:hover .fas.fa-chevron-down {
+      color: #333;
+    }
+
+    ul.navbar-right button.sign-up {
+      border-radius: 5px;
+      margin-top: 8px;
+      padding: 5px 8px;
+      color: #0a6fff;
+      border: 1px solid black;
+    }
+
+    /* header navbar */
+    header .jumbo {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
-  ul.navbar-nav {
-    margin-left: 0;
+  @media all and (min-width: 1200px) {
+    .container {
+      max-width: 1170px;
+    }
+
+    /* header jumbo */
+    /* header jumbo */
+    /* main section logos-grid */
+    main section.logos-grid h4 {
+      font-size: 30px;
+    }
+
+    main section.logos-grid p {
+      font-size: 25px;
+    }
   }
-
-  .navbar-collapse ul {
-    display: block;
-  }
-
-  .navbar-toggle {
-    margin-right: 0;
-    display: none;
-  }
-
-  nav.navbar {
-    min-height: 70px;
-    font-size: 15px;
-  }
-
-  div.collapse.navbar-collapse {
-    margin-top: 10px;
-  }
-
-  .navbar-brand img {
-    width: 150px;
-  }
-
-  .navbar-brand {
-    margin-top: 10px;
-    padding: 11px 15px;
-  }
-
-
-  .nav>li>a {
-    padding: 15px 0px;
-    padding-left: 20px;
-  }
-
-  .navbar-default .navbar-nav>li>a {
-    color: #031c4e;
-    font-weight: 600;
-  }
-
-  .navbar-nav>li>button {
-    font-weight: 600;
-    margin-left: 20px;
-    color: #031c4e;
-    padding-top: 14px;
-    font-size: 15px;
-    border: none;
-    background-color: transparent;
-    outline: none;
-  }
-
-  .navbar-nav>li>button:hover {
-    color: #333;
-  }
-
-  .fas.fa-chevron-down {
-    padding-left: 2px;
-    color: #031c4e;
-    font-weight: 900;
-  }
-
-  .fas.fa-chevron-down:hover,
-  .navbar-nav>li>button:hover .fas.fa-chevron-down {
-    color: #333;
-  }
-
-  ul.navbar-right button.sign-up {
-    border-radius: 5px;
-    margin-top: 8px;
-    padding: 5px 8px;
-    color: #0a6fff;
-    border: 1px solid black;
-  }
-  /* header navbar */
-  header .jumbo {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
-
-  /* header jumbo */
-
-  /* header jumbo */
-
-/* main section logos-grid */
-  main section.logos-grid h4 {
-    font-size: 30px;
-  }
-
-  main section.logos-grid p {
-    font-size: 25px;
-  }
-}
