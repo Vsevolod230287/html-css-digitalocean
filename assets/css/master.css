@@ -171,31 +171,30 @@ main section.carousel {
   padding: 100px 0;
   background-color: #F3F5F9;
 }
-.carousel img {
+.carousel img{
   width: 100%;
+
+}
+.carousel .img-carousel {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.carousel .arrow-left,
-.carousel .arrow-right {
-  height: 100%;
+.carousel .arrow-left .fa-arrow-circle-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+.carousel .arrow-right .fa-arrow-circle-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0, -50%);
+}
+
+.div-carousel {
   position: relative;
-}
-
-.carousel .fa-arrow-circle-left {
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(0, -50%);
-}
-
-.carousel .fa-arrow-circle-right {
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  right: 70%;
-  transform: translate(0, -50%);
-
 }
 
 .menu-carousel {
