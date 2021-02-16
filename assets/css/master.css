@@ -111,7 +111,59 @@ main section.logos-grid p {
   color: #046DFE;
   font-weight: 600;
 }
-/* main section  logo-grid */
+/* main section deploy */
+.deploy-heading {
+text-align: center;
+}
+
+.deploy-heading h1 {
+  font-weight: 600;
+}
+
+.deploy-heading p {
+  margin-bottom: 50px;
+font-size: 18px;
+font-weight: 600;
+color: #65728E;
+}
+
+.deploy ul {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.deploy ul li {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 0 8px 5px;
+  color: #7A859D;
+  border-left: 2px solid #CCCCCC;
+}
+
+.deploy ul li:hover
+{
+  border-left: 2px solid blue;
+}
+
+.deploy-card h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.deploy-card p {
+  padding-bottom: 20px;
+  color:#7A859D;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.deploy .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* main section deploy */
+
 
 /* main */
 
@@ -175,6 +227,10 @@ main section.logos-grid img {
   height: 80px;
 }
 /* main logos grid section*/
+
+/* deploy section */
+
+/* deploy section */
 
 }
 
