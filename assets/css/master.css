@@ -407,9 +407,56 @@ main section.get-started-now button {
   border-radius: 5px;
   margin-top: 20px;
 }
-
 /* main section get started now */
-/* main */
+/* finish main */
+
+/* footer */
+footer {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #8A94A9;
+  background-color: #031C4E;
+}
+
+footer img {
+  padding-bottom: 20px;
+}
+footer p {
+  padding: 0;
+}
+footer p.proudly{
+  color: #586685;
+  font-weight: 600;
+}
+
+footer .fab {
+  margin-right: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+footer ul.social li {
+  display: inline-block;
+}
+
+footer ul li img {
+  background-color: #031C4E;
+ color:#7A859D;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h5 {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 600;
+}
+/* footer */
+
 /* utility */
 .purple {
   color: #036bff;
