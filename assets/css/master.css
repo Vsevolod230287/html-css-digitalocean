@@ -455,6 +455,26 @@ footer h5 {
   color: #FFF;
   font-weight: 600;
 }
+
+footer .chat-box {
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+
+
+footer i .fas .fa-caret-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer .chat-box span {
+  color: #031C4E;
+}
 /* footer */
 
 /* utility */
