@@ -394,7 +394,6 @@ main section.get-started-now {
 
 main section.get-started-now h1 {
   font-weight: 600;
-
 }
 
 main section.get-started-now button {
@@ -407,9 +406,9 @@ main section.get-started-now button {
   border-radius: 5px;
   margin-top: 20px;
 }
+
 /* main section get started now */
 /* finish main */
-
 /* footer */
 footer {
   font-size: 14px;
@@ -423,10 +422,12 @@ footer {
 footer img {
   padding-bottom: 20px;
 }
+
 footer p {
   padding: 0;
 }
-footer p.proudly{
+
+footer p.proudly {
   color: #586685;
   font-weight: 600;
 }
@@ -443,7 +444,7 @@ footer ul.social li {
 
 footer ul li img {
   background-color: #031C4E;
- color:#7A859D;
+  color: #7A859D;
 }
 
 footer ul {
@@ -457,7 +458,7 @@ footer h5 {
 }
 
 footer .chat-box {
-  bottom: 20px;
+  bottom: 50px;
   right: 100px;
   position: fixed;
   padding: 5px 10px;
@@ -466,21 +467,42 @@ footer .chat-box {
   background-color: #fff;
 }
 
-
+footer .chat-box span {
+  color: #152C5A;
+}
 
 footer i {
-    position: absolute;
-    bottom: 2px;
-    right: -9px;
-    font-size: 30px;
-    color: #fff;
+  position: absolute;
+  bottom: 2px;
+  right: -8px;
+  font-size: 30px;
+  color: #fff;
 }
 
 footer .chat-box span {
   color: #031C4E;
 }
-/* footer */
 
+footer .footer-fixed img {
+  border-radius: 5px;
+  position: fixed;
+  bottom: 95px;
+  right: 351px;
+  width: 50px;
+}
+
+.messages-number {
+  padding: 1px 6px;
+  bottom: 145px;
+  right: 340px;
+  position: fixed;
+  display: inline-block;
+  background-color: #FF0001;
+  border-radius: 50%;
+  border: 4px solid #FFF;
+}
+
+/* footer */
 /* utility */
 .purple {
   color: #036bff;
