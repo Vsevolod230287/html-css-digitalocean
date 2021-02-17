@@ -219,8 +219,9 @@ main section.carousel {
 }
 
 .menu-carousel span {
+  font-size: 8px;
+  padding: 1px 6px;
   margin: 5px;
-  padding: 0px 9px;
   border-radius: 50%;
   border: 2px solid #3D8DFD;
   background-color: #FFF;
@@ -235,10 +236,8 @@ main section.carousel {
   margin-bottom: 50px;
   color: #0A2353;
 }
+
 /* main section carousel */
-
-
-
 /* main section features */
 main section.features h1,
 main section.features h3 {
@@ -266,9 +265,8 @@ main section.features a {
 main section.features img {
   margin-top: 50px;
 }
+
 /* main section features */
-
-
 /* main section around-the-world */
 .around-the-world {
   font-weight: 600;
@@ -279,7 +277,7 @@ main section.features img {
 }
 
 .around-the-world h1 {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .around-the-world p {
@@ -310,10 +308,82 @@ main section.features img {
   margin-left: 15px;
   width: 15%;
 }
-/* main section around-the-world */
 
-/* section */
-background-color: #F3F5F9;
+/* main section around-the-world */
+/* main section rocker-box */
+main section.rocker-box {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F3F5F9;
+}
+
+main section.rocker-box h1 {
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+main section.rocker-box .div-80-carousel {
+  font-weight: 600;
+  background-color: #FFF;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-top: 50px;
+}
+
+.quote-rocker-box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.rocker-carousel {
+  position: relative;
+}
+
+.rocker-carousel .fa-arrow-circle-left {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: none;
+}
+
+.rocker-carousel .fa-arrow-circle-right {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  display: none;
+}
+
+main section.rocker-box q {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #5C6A88;
+}
+
+main section.rocker-box .div-80-carousel p {
+  padding-top: 10px;
+  color: #061E4F;
+  font-size: 16px;
+}
+
+
+main section.rocker-box .div-80-carousel span {
+  color: #061E4F;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+main section.rocker-box a {
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+/* main section rocker-box */
 /* main */
 /* utility */
 .purple {
@@ -374,25 +444,29 @@ background-color: #F3F5F9;
     width: 100%;
     height: 80px;
   }
+
   /* main logos grid section*/
+  /* main carousel */
+  .carousel .arrow-left .fa-arrow-circle-left {
+    display: block;
+  }
 
-/* main carousel */
-.carousel .arrow-left .fa-arrow-circle-left {
-  display: block;
+  .carousel .arrow-right .fa-arrow-circle-right {
+    display: block;
+  }
+
+  /* main carousel */
+  /* main section Rockerbox */
+  .rocker-carousel .fa-arrow-circle-left {
+    display: block;
+  }
+
+  .rocker-carousel .fa-arrow-circle-right {
+    display: block;
+  }
+
+  /* main section Rockerbox */
 }
-
-.carousel .arrow-right .fa-arrow-circle-right {
-  display: block;
-}
-/* main carousel */
-
-
-
-}
-
-
-
-
 
 @media all and (min-width: 992px) {
 
