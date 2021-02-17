@@ -332,7 +332,7 @@ main section.rocker-box .div-80-carousel {
 }
 
 .quote-rocker-box {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -359,7 +359,7 @@ main section.rocker-box .div-80-carousel {
 }
 
 main section.rocker-box q {
-  padding-top: 10px;
+  margin-top: 50px;
   font-size: 20px;
   color: #5C6A88;
 }
@@ -419,7 +419,7 @@ footer {
   background-color: #031C4E;
 }
 
-footer img {
+footer .logo img {
   padding-bottom: 20px;
 }
 
@@ -432,7 +432,7 @@ footer p.proudly {
   font-weight: 600;
 }
 
-footer .fab {
+footer i {
   margin-right: 10px;
   padding-top: 10px;
   font-size: 30px;
@@ -442,7 +442,7 @@ footer ul.social li {
   display: inline-block;
 }
 
-footer ul li img {
+footer ul li i {
   background-color: #031C4E;
   color: #7A859D;
 }
@@ -457,24 +457,14 @@ footer h5 {
   font-weight: 600;
 }
 
-footer .chat-box {
-  bottom: 50px;
-  right: 100px;
-  position: fixed;
-  padding: 5px 10px;
-  border-radius: 8px;
-  display: inline-block;
-  background-color: #fff;
-}
-
 footer .chat-box span {
   color: #152C5A;
 }
 
-footer i {
+footer i.fas.fa-caret-right {
   position: absolute;
-  bottom: 2px;
-  right: -8px;
+  bottom: 4px;
+  right: -20px;
   font-size: 30px;
   color: #fff;
 }
@@ -483,18 +473,28 @@ footer .chat-box span {
   color: #031C4E;
 }
 
+footer .chat-box {
+  bottom: 30px;
+  right: 100px;
+  position: fixed;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #fff;
+}
+
 footer .footer-fixed img {
   border-radius: 5px;
   position: fixed;
-  bottom: 95px;
-  right: 351px;
+  bottom: 30px;
+  right: 30px;
   width: 50px;
 }
 
 .messages-number {
   padding: 1px 6px;
-  bottom: 145px;
-  right: 340px;
+  bottom: 60px;
+  right: 21px;
   position: fixed;
   display: inline-block;
   background-color: #FF0001;
@@ -677,6 +677,9 @@ footer .footer-fixed img {
     padding-left: 0;
     padding-right: 0;
   }
+
+  /* footer fixed chat-box */
+  /* footer fixed chat-box */
 }
 
 @media all and (min-width: 1200px) {
