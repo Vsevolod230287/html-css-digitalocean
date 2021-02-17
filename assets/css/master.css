@@ -457,7 +457,9 @@ footer h5 {
 }
 
 footer .chat-box {
-  position: relative;
+  bottom: 20px;
+  right: 100px;
+  position: fixed;
   padding: 5px 10px;
   border-radius: 8px;
   display: inline-block;
@@ -466,10 +468,12 @@ footer .chat-box {
 
 
 
-footer i .fas .fa-caret-right {
-  position: absolute;
-  top: 0;
-  right: 0;
+footer i {
+    position: absolute;
+    bottom: 2px;
+    right: -9px;
+    font-size: 30px;
+    color: #fff;
 }
 
 footer .chat-box span {
