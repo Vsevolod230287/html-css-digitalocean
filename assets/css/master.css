@@ -370,7 +370,6 @@ main section.rocker-box .div-80-carousel p {
   font-size: 16px;
 }
 
-
 main section.rocker-box .div-80-carousel span {
   color: #061E4F;
   font-weight: 900;
@@ -383,7 +382,33 @@ main section.rocker-box a {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
 /* main section rocker-box */
+/* main section get started now */
+main section.get-started-now {
+  padding: 100px 0;
+  background-color: #003CB6;
+  color: #FFF;
+  text-align: center;
+}
+
+main section.get-started-now h1 {
+  font-weight: 600;
+
+}
+
+main section.get-started-now button {
+  font-size: 18px;
+  color: #1074FF;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* main section get started now */
 /* main */
 /* utility */
 .purple {
